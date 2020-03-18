@@ -1,0 +1,13 @@
+[
+    {
+      "name": "etherpad",
+      "image": "etherpad/etherpad:1.8.0",
+      "essential": true,
+      "portMappings": [
+        {
+          "containerPort": 9001,
+          "hostPort": 9001
+        }
+      ]
+    }
+]
